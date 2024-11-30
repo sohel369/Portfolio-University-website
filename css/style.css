@@ -24,6 +24,7 @@ body {
 
     a img {
         margin-top: 20px;
+        width: 180px;
     }
 }
 
@@ -46,6 +47,10 @@ body {
         left: 0;
         width: 100%;
         z-index: 1000;
+
+        a img {
+            width: 180px;
+        }
 
 
         i {
@@ -88,13 +93,13 @@ body {
                     font-size: 16px;
                     text-decoration: none;
                     text-transform: uppercase;
+                    
                 }
-
-                a.active {
-                    padding: 6px 12px;
-                    background: #00000050;
-                    border-radius: 6px;
-                }
+            }
+            li.active{
+                background: rgb(115, 122, 126);
+                border-radius: 10px;
+                padding: 6px 10px;
             }
         }
     }
@@ -143,7 +148,7 @@ body {
 /* course */
 .course {
     width: 100%;
-    padding-top: 100px;
+    padding-top: 20px;
     text-align: center;
     margin: auto;
 
@@ -163,9 +168,8 @@ body {
     .row {
         display: flex;
         justify-content: space-between;
-        margin-top: 5%;
         align-items: center;
-        margin: 4% 30px;
+        margin: 10px 30px;
 
         .course_col {
             flex-basis: 30%;
@@ -265,7 +269,6 @@ body {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
 
     h1 {
         font-size: 40px;
@@ -274,7 +277,6 @@ body {
     .row {
         flex-basis: 25%;
         border-radius: 10px;
-        margin-bottom: 5%;
         text-align: left;
         display: flex;
         gap: 40px;
@@ -305,7 +307,7 @@ body {
 .testimonials {
     width: 80%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 40px;
     text-align: center;
 
     h1 {
@@ -366,7 +368,7 @@ body {
 /* call to active cta */
 .cta {
     width: 80%;
-    margin: 100px auto;
+    margin: 20px auto;
     background-image: linear-gradient(rgba(0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../eduford_img/banner2.jpg');
     background-position: center;
     background-size: cover;
@@ -403,7 +405,7 @@ body {
 .footer {
     text-align: center;
     width: 100%;
-    padding: 30px 10px;
+    padding: 10px 10px;
 
     h4 {
         margin-bottom: 25px;
@@ -438,6 +440,46 @@ body {
 
     h1 {
         margin-top: 100px;
+    }
+}
+.about_us_content {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .about_col{
+        flex-basis: 48%;
+        padding: 30px 2px;
+        img{
+            width: 100%;
+        }
+        h1{
+            padding-top: 0;
+        }
+        p{
+            padding: 16px 0 20px;
+        }
+        .hero_btn {
+            display: inline-block;
+            text-decoration: none;
+            color: #f44336;
+            background: transparent;
+            border: 1px solid #f44336;
+            font-size: 16px;
+            cursor: pointer;
+            padding: 12px 30px;
+            transition: 1s ease-in-out;
+            margin: 10px 0;
+
+            &:hover {
+                border: 1px solid #f44336;
+                background: #f44336;
+                color: #000;
+            }
+        }
     }
 }
 
@@ -490,6 +532,7 @@ body {
                     cursor: pointer;
                     font-size: 30px;
                     color: white;
+                    text-align: left;
 
                 }
 
@@ -500,6 +543,9 @@ body {
                         display: block;
                         text-align: left;
                         font-weight: bold;
+                        a{
+                            display: block;
+                        }
 
                     }
 
@@ -591,5 +637,13 @@ body {
     .cta {
         width: 96%;
 
+    }
+    /* about page */
+    .about_us_content {
+        flex-direction: column;
+        width: 96%;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 0;
     }
 }
