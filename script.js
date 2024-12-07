@@ -18,3 +18,4 @@ window.addEventListener('scroll', function () {
     navbar.classList.remove('activeNav', window.scrollY > 0)
     Head_nav.classList.toggle('scrollxy', window.scrollY > 0)
 })
+
