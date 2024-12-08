@@ -33,7 +33,7 @@ body {
 .header {
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.6)), url('../eduford_img/banner.png');
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.6)), url(https://img.freepik.com/free-photo/entrance-modern-office-building_1127-2295.jpg?t=st=1733673814~exp=1733677414~hmac=2fd8b75cfaa95860b36defdf1bb3568af66213dfd556ac5906490530012b6a77&w=826);
     background-position: center;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -225,6 +225,7 @@ body {
 }
 /* out global campus */
 .campus {
+
     width: 80%;
     margin: 0 auto;
     text-align: center;
@@ -236,7 +237,7 @@ body {
 
     .row {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         gap: 20px;
 
@@ -460,7 +461,7 @@ body {
 .sub_header {
     height: 80vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../eduford_img/background.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://img.freepik.com/premium-photo/university-campus-with-big-field-photography-students-are-waking-gossiping-their-campus-free_551880-7836.jpg?w=740);
     background-position: center;
     background-size: cover;
     color: #fff;
