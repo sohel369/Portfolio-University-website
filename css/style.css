@@ -11,7 +11,7 @@
 body {
     height: 100vh;
     width: 100%;
-    background: #031321;
+    background: #12151B;
     color: #fff;
 }
 
@@ -536,7 +536,7 @@ body {
             }
 
             h1 {
-                color: #222;
+                color: #fff;
                 font-weight: 600;
                 margin: 20px 0;
             }
@@ -572,7 +572,7 @@ body {
                     transition: 0.5s ease-in-out;
                     background: transparent;
                     border: 1px solid #ccc;
-                    color: #000;
+                    color: #fff;
                     margin: 10px 0;
 
                     &:hover {
@@ -600,7 +600,7 @@ body {
                 align-items: center;
                 justify-content: space-between;
                 padding: 10px;
-                color: #555;
+                color: #fff;
             }
         }
     }
@@ -642,13 +642,13 @@ body {
 
                 p {
                     padding: 0;
-                    color: #333;
+                    color: #b8b8b8;
                 }
 
                 h5 {
                     font-size: 20px;
                     margin-bottom: 5px;
-                    color: #555;
+                    color: #fff;
                     font-weight: 400;
                 }
             }
